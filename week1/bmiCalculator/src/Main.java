@@ -6,12 +6,12 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Lütfen boyunuzu (metre cinsinde) giriniz : ");
-        double b = scanner.nextDouble();
+        double height = scanner.nextDouble();
 
         System.out.print("Lütfen kilonuzu giriniz : ");
-        Integer k = scanner.nextInt();
+        Integer weight  = scanner.nextInt();
 
-        double bmi = (double)k / (b * b);
+        double bmi = (double)weight  / (height  * height );
 
         System.out.println("Vücut Kitle İndeksiniz : " + bmi);
     }
