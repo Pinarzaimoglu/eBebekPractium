@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Calculator {
     public void calculate(int distance, int age, int type) {
-        double ageDiscount=0, typeDiscount=0, totalPrice = 0;
+        double ageDiscount=0, typeDiscount=0, totalPrice;
 
         double price = distance*0.10;
 
